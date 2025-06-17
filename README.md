@@ -11,3 +11,16 @@
 diegovmsouza/diegovmsouza is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
+
+## Cadastro de Itens e Emissão de Nota Fiscal
+
+Este repositório inclui o script `cadastro.py` que permite cadastrar itens e gerar notas fiscais simples em arquivos de texto.
+
+### Como usar
+
+```bash
+python cadastro.py add --name "Caneta" --price 2.5 --quantity 10
+python cadastro.py list
+python cadastro.py invoice --ids 1
+```
+
